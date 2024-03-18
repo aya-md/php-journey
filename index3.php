@@ -6,15 +6,14 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="index2.php" method="post"> 
+  <form action="index3.php" method="post"> 
     <input type="radio" name="creditcard" value="visa">
     visa<br>
     <input type="radio" name="creditcard" value="MasterCard">
     MasterCard<br>
     <input type="radio" name="creditcard" value="American Express">
     American Express<br>
-    <input type="submit" name="confirm" value="confirm">
-
+    <input type="submit" name="confirm" value="confirm">   
   </form>
 </body>
 </html>
@@ -24,7 +23,7 @@ if(isset($_POST["confirm"])){
     $creditcard=$_POST["creditcard"];
   }
   switch ($creditcard) {
-    case "vise":
+    case "visa":
       echo "you selected visa";
       break;
     case "MasterCard":

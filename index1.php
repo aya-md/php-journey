@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-  <form action="index.php" method="post">
+  <form action="index1.php" method="post">
     <label for="">radius:</label>
     <input type="text" name="radius"><br>
     <input type="submit" value="calculate">
